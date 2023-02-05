@@ -2,6 +2,8 @@
 
 * {
     box-sizing: content-box;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
 }
 
 .versatile-container {
@@ -41,7 +43,6 @@ body {
     
 }
 .nav-link {
-    font-family: 'Ubuntu', sans-serif;
     color: white;
     font-weight: 400;
     font-size: 20px;
@@ -49,7 +50,6 @@ body {
 
 .nav-link button{
     background-color: #1BC0E3;
-    font-family: 'Ubuntu', sans-serif;
     width: 150px;
     height: 62.5px;
     border-radius: 60px;
@@ -64,7 +64,6 @@ body {
 
 #title-1,
 #title-2 {
-    font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
 }
 
@@ -86,7 +85,6 @@ body {
 }
 
 #intro-text {
-    font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
     font-size: 25px;
     color: white;
@@ -115,9 +113,8 @@ body {
 #btn-info {
     width: 225px;
     height: 75px;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 400;
-    font-size: 37.5px;
+    font-weight: 700;
+    font-size: 31.25px;
     border-radius: 60px;
 }
 
@@ -143,8 +140,14 @@ body {
     gap: 75px;
 }
 
+#desc-arrow {
+    width: 153.0375px;
+    height: auto;
+    transform: translate(-180px,95px);
+}
+
 #description {
-    margin-top: 93.75px;
+    margin-top: 25px;
     height: 555.825px;
 }
 
@@ -174,7 +177,6 @@ body {
 
 #right-side-desc p {
     color: white;
-    font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     font-size: 25px;
     line-height: 30px;
@@ -183,7 +185,6 @@ body {
 
 .section-title{
     font-size: 75px;
-    font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
     color: #1BC0E3;
     margin-bottom: 10px;
@@ -193,6 +194,64 @@ body {
 
 #categories {
     margin-top: 76.675px;
+    height: 991.65px;
+}
+
+#cat-card-container{
+    width: 416.61875px;
+    height: 333.3px;
+    background-color: #01223B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 70.625px;
+    border-width: 6.25px;
+    border-style: solid;
+    border-color: #1BC0E3;
+    transform: translate(54.1875px,-91.65px);
+    z-index: 0;
+}
+
+#cat-card {
+    height: 300px;
+    width: 375px;
+    background-color: #FFC11D;
+    color: #01223B;
+    border-radius: 70.625px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+#cat-card h4 {
+    color: #01223B;
+    font-weight: 500;
+    font-size: 37.5px;
+    text-align: center;
+}
+
+#cat-card p {
+    color: #01223B;
+    font-weight: 400;
+    font-size: 21.875px;
+    width: 304.1875px;
+}
+
+#big-card-container {
+    height: 391.65px;
+    width: 470.8125px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 58.35px;
+}
+
+#goals {
+    margin-top: 58.35px;
 }
 
 #goals .versatile-container{
@@ -219,7 +278,6 @@ body {
 
 #goal-list li {
     color: white;
-    font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     font-size: 25px;
     line-height: 30px;
@@ -243,4 +301,79 @@ body {
     justify-content: space-between;
     align-items: center;
 
+}
+
+#mailing-list {
+    height: 450px;
+
+}
+
+#mailing-list .versatile-container{
+    border-radius: 71.875px;
+    background: linear-gradient(180deg, #1BC0E3 0%, #1B6BE3 100%);
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact-h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 75px;
+}
+
+#contact-text {
+    width: 900px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#contact-text p {
+    font-weight: 400;
+    font-size: 31.25px;
+    color: #01223B;
+
+
+}
+
+#enter-mail {
+    width: 750px;
+    height: 75px;
+    display: flex;
+}
+
+#enter-mail input {
+    width: 100%;
+    height: 100%;
+    background-color: #01223B;
+    border: none;
+    padding: 0;
+    border-radius: 37.5px;
+    color: #CCCCCC;
+    font-weight: 400;
+    font-size: 25px;
+    
+}
+
+#enter-mail input::placeholder {
+    padding-left: 34.95px;
+}
+
+#enter-mail button {
+    width: 136.05px;
+    height: 90.7%;
+    z-index: 2;
+    border-radius: 37.5px;
+    background-color: #1BC0E3;
+    font-weight: 700;
+    font-size: 25px;
+    border: none;
+    padding: 0;
+    margin-left: -140.25px;
+    margin-top: 3.4875px;
+    color: white;
 }

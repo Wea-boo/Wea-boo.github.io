@@ -11,14 +11,14 @@ export default function HeroBanner() {
                 </div>
                 <p id='intro-text'>Create I.T is an event that handles the art of creative coding through a series of workshops about the main categories of this art and an opportunity for Art Code Enthusiasts to compete in</p>
                 <div id='event-btn'>
-                    <button id='btn-join'>Join</button>
-                    <button id='btn-info'>More</button>
+                    <button id='btn-join'>Join Us</button>
+                    <button id='btn-info'>Learn More</button>
+                    <img src="/Arrow 1.svg" alt="" id='desc-arrow' />
                 </div>
                 
             </div>
             <div className='right-side'>
-                <img src="/thing 1.png" alt="" />
-                <img src="/Mask group.png" alt="" style={{width: "393.125px",height: "auto",position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)"}}/>
+                <img src="/Group 21.svg" alt="" />
             </div>
         </div>
     </section>
