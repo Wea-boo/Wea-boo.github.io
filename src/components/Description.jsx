@@ -5,8 +5,8 @@ export default function Description() {
     <section id='description'>
         <div className='versatile-container'>
             <div id='left-side-desc'>
-                <img src="/Image Holder (1).svg" alt="" className='upper-image' />
-                <img src="/Image Holder.svg" alt="" className='lower-image'/>
+
+                <img src="/Images.svg" alt="" style={{position: "absolute", transform: "translate(0px,70px)"}}/>
             </div>
             <div id='right-side-desc'>
                 <h1 className='section-title'>Description:</h1>

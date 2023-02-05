@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
+* {
+    box-sizing: content-box;
+}
 
 .versatile-container {
     margin-left: 200px;
@@ -10,7 +13,6 @@
 #navbar {
     height: 150px;
     width: 100%;
-    background: linear-gradient(180deg, #000F1B 0%, rgba(1, 34, 59, 0) 100%);
 
 }
 
@@ -47,10 +49,13 @@ body {
 
 .nav-link button{
     background-color: #1BC0E3;
+    font-family: 'Ubuntu', sans-serif;
     width: 150px;
     height: 62.5px;
     border-radius: 60px;
     font-weight: 700;
+    font-size: 20px;
+    color: white;
 }
 
 #banner {
@@ -184,18 +189,58 @@ body {
     margin-bottom: 10px;
 }
 
-.upper-image {
-    position: absolute;
-    z-index: 2;
 
-}
-.lower-image {
-
-    position: absolute;
-    transform: translate(50px, 200px);
-
-}
 
 #categories {
     margin-top: 76.675px;
+}
+
+#goals .versatile-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 450px;
+    position: relative;
+}
+
+#goal-pic {
+    height: 100%;
+    width: auto;
+
+    transform: translate(0px,20px);
+}
+
+#goal-list {
+    list-style-type: disc;
+    height: 351.52px;
+
+    
+}
+
+#goal-list li {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+#right-side-goal {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#right-side-goal .section-title{
+    height: 75px;
+    margin-top: 0;
+}
+
+#brands {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }

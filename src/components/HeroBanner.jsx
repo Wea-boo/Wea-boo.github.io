@@ -18,7 +18,7 @@ export default function HeroBanner() {
             </div>
             <div className='right-side'>
                 <img src="/thing 1.png" alt="" />
-                <img src="/Mask group.png" alt="Foreground image" style={{width: "393.125px",height: "auto",position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)"}}/>
+                <img src="/Mask group.png" alt="" style={{width: "393.125px",height: "auto",position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)"}}/>
             </div>
         </div>
     </section>
