@@ -42,10 +42,11 @@ body {
     gap: 51.25px;
     
 }
-.nav-link {
+.nav-link a{
     color: white;
     font-weight: 400;
     font-size: 20px;
+    text-decoration: none;
 }
 
 .nav-link button{
@@ -263,10 +264,10 @@ body {
 }
 
 #goal-pic {
-    height: 100%;
+    height: 376.875px;
     width: auto;
 
-    transform: translate(0px,20px);
+    transform: translate(0px,70px);
 }
 
 #goal-list {
@@ -289,11 +290,16 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    transform: translate(-50px);
 }
 
 #right-side-goal .section-title{
     height: 75px;
     margin-top: 0;
+}
+
+#sponsors {
+    margin-top: 200px;
 }
 
 #brands {
@@ -305,6 +311,7 @@ body {
 
 #mailing-list {
     height: 450px;
+    margin-top: 85.95px;
 
 }
 
@@ -376,4 +383,69 @@ body {
     margin-left: -140.25px;
     margin-top: 3.4875px;
     color: white;
+}
+
+footer {
+    height: 209.4625px;
+    margin-top: 51.575px;
+    margin-bottom: 39px;
+}
+
+footer .versatile-container {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#left-side-footer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#left-side-footer h3{
+    font-weight: 500;
+    font-size: 37.5px;
+    color: #1BC0E3;
+
+}
+
+#social-media {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 132.28125px;
+    height: 129.73125px;
+    column-gap: 43.75px;
+    row-gap: 42px;
+    margin-top: 21.875px;
+}
+
+#social-media img{
+    align-self: center;
+}
+
+#right-side-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#right-side-footer h3 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 37.5px;
+    color: #1BC0E3;
+}
+
+#res-list {
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#res-list li {
+    text-align: center;
 }

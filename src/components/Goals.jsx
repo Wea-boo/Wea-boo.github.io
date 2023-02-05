@@ -4,7 +4,7 @@ const Goals = () => {
     return (
         <section id='goals'>
             <div className='versatile-container'>
-                <img src="/Group 11 (1).svg" alt="" id='goal-pic'/>
+                <img src="/Group 21 (2).svg" alt="" id='goal-pic'/>
                 <div id='right-side-goal'>
                     <h1 className='section-title'>Goals:</h1>
                     <ul id='goal-list'>
