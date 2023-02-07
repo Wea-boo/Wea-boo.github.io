@@ -7,8 +7,8 @@
 }
 
 .versatile-container {
-    margin-left: 200px;
-    margin-right: 200px;
+    width: 1119.2px;
+    margin: auto;
     
 }
 
@@ -50,7 +50,7 @@ body {
 }
 
 .nav-link button{
-    background-color: #1BC0E3;
+    background-color: #0188C2;
     width: 150px;
     height: 62.5px;
     border-radius: 60px;
@@ -69,26 +69,29 @@ body {
 }
 
 #title-1 {
-    font-size: 50px;
+    font-size: 56.25px;
     color: white;
     height: 50px;
-    margin-bottom: 8px;
+
 }
 
 #title-2 {
-    font-size: 56.25px;
-    color: #1BC0E3;
+    font-size: 75px;
+    color: #0188C2;
     height: 56.25px;
+    margin-top: 20px;
 }
 
 #title {
-    height: 140px;
+    height: 155px;
+    margin-bottom: 20px;
 }
 
 #intro-text {
     font-weight: 300;
     font-size: 25px;
     color: white;
+    width: 85%;
 }
 
 #banner .versatile-container{
@@ -126,17 +129,17 @@ body {
     position: relative;
     overflow: hidden;
     transition: all 0.3s;
-    border-color: #1BC0E3;
+    border-color: #0188C2;
     background-color: white;
 }
 
 #btn-join {
-    background-color: #1BC0E3;
+    background-color: #0188C2;
     color: white;
 }
 
 #event-btn {
-    padding-top: 15px;
+    padding-top: 28.75px;
     display: flex;
     gap: 75px;
 }
@@ -187,7 +190,7 @@ body {
 .section-title{
     font-size: 75px;
     font-weight: 700;
-    color: #1BC0E3;
+    color: #0188C2;
     margin-bottom: 10px;
 }
 
@@ -196,6 +199,10 @@ body {
 #categories {
     margin-top: 76.675px;
     height: 991.65px;
+}
+
+#categories .versatile-container .section-title {
+    margin-bottom: 63.75px;
 }
 
 #cat-card-container{
@@ -208,7 +215,7 @@ body {
     border-radius: 70.625px;
     border-width: 6.25px;
     border-style: solid;
-    border-color: #1BC0E3;
+    border-color: #FFC11D;
     transform: translate(54.1875px,-91.65px);
     z-index: 0;
 }
@@ -216,7 +223,7 @@ body {
 #cat-card {
     height: 300px;
     width: 375px;
-    background-color: #FFC11D;
+    background-color: #0188C2;
     color: #01223B;
     border-radius: 70.625px;
     display: flex;
@@ -300,9 +307,17 @@ body {
 
 #sponsors {
     margin-top: 200px;
+    height: 264.35625px;
+}
+
+#sponsors .versatile-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #brands {
+    margin-top: 50.325px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -317,7 +332,7 @@ body {
 
 #mailing-list .versatile-container{
     border-radius: 71.875px;
-    background: linear-gradient(180deg, #1BC0E3 0%, #1B6BE3 100%);
+    background: linear-gradient(180deg, #0188C2 0%, #15468E 100%);
     height: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -375,7 +390,7 @@ body {
     height: 90.7%;
     z-index: 2;
     border-radius: 37.5px;
-    background-color: #1BC0E3;
+    background-color: #0188C2;
     font-weight: 700;
     font-size: 25px;
     border: none;
@@ -387,8 +402,28 @@ body {
 
 footer {
     height: 209.4625px;
-    margin-top: 51.575px;
-    margin-bottom: 39px;
+    
+    
+}
+
+footer::before {
+    content: "";
+    height: 8px;
+    border-radius: 5px;
+    width: 1119.2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 102.51875px;
+    margin-bottom: 40px;
+    background-color: #0188C2;
+    display: block;
+}
+
+footer::after {
+    content: "";
+    height: 31.7125px;
+    width: 100%;
+    display: block;
 }
 
 footer .versatile-container {
@@ -396,10 +431,12 @@ footer .versatile-container {
     height: 100%;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 31.7125px;
 }
 
 #left-side-footer {
     height: 100%;
+    width: 225px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -409,7 +446,9 @@ footer .versatile-container {
 #left-side-footer h3{
     font-weight: 500;
     font-size: 37.5px;
-    color: #1BC0E3;
+    color: #0188C2;
+    text-align: center;
+    
 
 }
 
@@ -423,6 +462,8 @@ footer .versatile-container {
     margin-top: 21.875px;
 }
 
+
+
 #social-media img{
     align-self: center;
 }
@@ -431,13 +472,14 @@ footer .versatile-container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 }
 
 #right-side-footer h3 {
-    text-align: center;
+    width: 215px;
     font-weight: 500;
     font-size: 37.5px;
-    color: #1BC0E3;
+    color: #0188C2;
 }
 
 #res-list {
@@ -447,5 +489,9 @@ footer .versatile-container {
 }
 
 #res-list li {
-    text-align: center;
+    text-align: left;
+    font-size: 18.75px;
+    color: white;
+    font-weight: 400;
+    line-height: 30px;
 }

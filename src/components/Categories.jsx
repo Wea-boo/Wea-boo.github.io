@@ -15,9 +15,9 @@ const Categories = () => {
             <div className='versatile-container'>
                <h1 className='section-title'>Categories:</h1>
                <div className='card-grid'>
-                {categories.map(cat => {
+                {categories.map((cat,id) => {
                     return(
-                        <CategCard title={cat.title} paragraph={cat.description} image={cat.picture}/>
+                        <CategCard key={id} title={cat.title} paragraph={cat.description} image={cat.picture}/>
                     )
                 })}
                </div>
