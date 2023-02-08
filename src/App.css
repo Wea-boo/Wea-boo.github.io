@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+button {
+    cursor: pointer;
+}
+
 .versatile-container {
     width: 1119.2px;
     margin: auto;
