@@ -373,20 +373,19 @@ body {
 }
 
 #enter-mail input {
-    width: 100%;
+    width: 715px;
     height: 100%;
     background-color: #01223B;
     border: none;
-    padding: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 35px;
     border-radius: 37.5px;
     color: #CCCCCC;
     font-weight: 400;
     font-size: 25px;
     
-}
-
-#enter-mail input::placeholder {
-    padding-left: 34.95px;
 }
 
 #enter-mail button {
